@@ -1,0 +1,321 @@
+html, body, nav, section, div, img, ul, h2 {
+	margin: auto 0;
+	padding: 0;
+	font-family: "Helvetica", sans-serif;
+}
+
+/*TITLE/NAV BAR*/
+.title {
+	float: left;
+}
+
+.title>li {
+	list-style-type: none;
+	float: left;
+	padding-top: 33px;
+	font-family: "Raleway", sans-serif;
+	font-size: 30px;
+	color: #A0A0A0;
+}
+
+#nav-links-list {
+	float: right;
+	margin-top: 0;
+}
+
+#nav-links-list>li {
+	list-style-type: none;
+	float: left;
+	padding-left: 50px;
+	padding-top: 45px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+#nav-links-list>li>a {
+	text-decoration: none;
+	color: #A0A0A0;
+}
+
+#header-image {
+	margin-left: 0px;
+	margin-right: auto;
+	width: 750px;
+}
+
+.content {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*SECTION ONE*/
+#section-1 {
+	background: #4ab484;
+	height: 490px;
+}
+
+.section-one-grid {
+	width: 780px;
+	margin: 0 auto;
+}
+
+.section-one-thumbnail-grid {
+	list-style-type: none;
+}
+
+.section-one-thumbnail {
+	float: left;
+	width: 210px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 30px;
+}
+
+#section-1-thumbnail-image {
+	background: url(../imgs/section1-icon.png);
+	width: 40px;
+	height: 45px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+#section-1-thumbnail-description {
+	text-align: center;
+}
+
+/*SECTION TWO*/
+.section-two {
+	height: 670px;
+}
+
+.section-two-grid {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#latest-work-col {
+	list-style-type: none;
+	float: left;
+	max-width: 235px;
+}
+
+#latest-work-col-big {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+
+#latest-work-col-medium {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+#latest-work-col-small {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+	padding-bottom: 25px;
+}
+
+.section-two {
+	margin-top: 50px;
+}
+
+#section-2-button {
+	width: 100px;
+	height: 40px;
+	background-color: red;
+	border: none;
+	color: #ffffff;
+	font-size: 16px;
+	margin-top: 80px;
+	margin-bottom: 200px;
+}
+
+#section-2-thumbnail-grid {
+	list-style-type: none;
+}
+
+#section-2-thumbnail {
+	width: 235px;
+	float: left;
+	padding-left: 20px;
+}
+
+#section-2-caption {
+	padding-bottom: 15px;
+}
+
+#section-2-caption-title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 25px;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	margin: 0;
+}
+
+#thumbnail-image1 {
+	background: url(../imgs/Plane-Takeoff.png);
+	width: 235px;
+	height: 235px;
+	background-position: -350px -20px;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+
+#thumbnail-image2 {
+	background: url(../imgs/Plane-KLM.png);
+	width: 235px;
+	height: 235px;
+	background-position: -280px -75px;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+
+#thumbnail-image3 {
+	background: url(../imgs/Planes-Formation.png);
+	width: 235px;
+	height: 235px;
+	background-position: -214px -30px;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+
+#thumbnail-image4 {
+	background: url(../imgs/Plane-Tails.png);
+	width: 235px;
+	height: 235px;
+	background-position: -60px -20px;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+
+#thumbnail-image5 {
+	background: url(../imgs/Plane-Propeller.png);
+	width: 235px;
+	height: 235px;
+	background-position: -205px -70px;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+
+#thumbnail-image6 {
+	background: url(../imgs/Plane-LEGO.png);
+	width: 235px;
+	height: 235px;
+	background-position: -60px -80px;
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+
+/*SECTION THREE*/
+.section-three {
+	background: #363636;
+}
+
+.client-logo-group {
+	list-style-type: none;
+}
+
+.client-logo-group>li {
+	float: left;
+	color: white;
+	width: 235px;
+	padding-left: 20px;
+	text-align: center;
+	font-size: 36pt;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.client-logo-group>li:first-child {
+	padding-left: 0px;
+}
+
+#clientLogo1 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#clientLogo2 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#clientLogo3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+}
+
+#clientLogo4 {
+	font-family: 'Karla', sans-serif;
+	font-style: italic;
+}
+
+/*SECTION FOUR*/
+.section-four {
+	background-color: #078673;
+}
+
+#section-four-title {
+	color: white;
+	font-size: 32pt;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	text-align: center;
+	padding-top: 80px;
+}
+
+#section-four-description {
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 20pt;
+	padding-bottom: 10px;
+}
+
+#section-four-button {
+	border: none;
+	background-color: #363636;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	color: white;
+	font-size: 22pt;
+	width: 90px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+#more-button-wrapper {
+	width: 90px;
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+}
+
+/*FOOTER*/
+#footer-copyright {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14pt;
+	color: #363636;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+
